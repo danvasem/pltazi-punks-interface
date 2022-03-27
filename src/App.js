@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./views/home";
+import Punks from "./views/punks";
+import Punk from "./views/punk";
 import MainLayout from "./layouts/main";
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <MainLayout>
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/punks" exact element={<Punks />} />
+        <Route path="/punk/:tokenId" exact element={<Punk />} />
       </Routes>
     </MainLayout>
   );
