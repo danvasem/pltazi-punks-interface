@@ -80,7 +80,7 @@ const Home = () => {
               bg: "green.400",
               zIndex: -1,
             }}>
-            Un Platzi Punk
+            Un Platzi Punk DVS
           </Text>
           <br />
           <Text as={"span"} color={"green.400"}>

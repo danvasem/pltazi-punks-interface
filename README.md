@@ -12,3 +12,9 @@ Install dependencies:
 
 There is a known issue using Web3 when the app was created using Creat-react-app, follow the instructions detailed in:
 https://github.com/ChainSafe/web3.js#troubleshooting-and-known-issues
+
+Para subir un archivo a IPFS utilizando los servicios gratuitos de Infura
+curl "https://ipfs.infura.io:5001/api/v0/add?pin=true&cid-version=1" -X POST -H "Content-Type: multipart/form-data" -F file="Never stop learning"
+
+Para subir el proyecto a IPFS con toda la estructura de carpetas, revisar el script "deploy.sh"
+sh ./deploy.sh
